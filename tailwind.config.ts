@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        body: ['Poppins', 'sans-serif'],
+      },
       colors: {
+        'rose-gold': 'hsl(var(--rose-gold))',
+        'champagne': 'hsl(var(--champagne))',
+        'soft-ivory': 'hsl(var(--soft-ivory))',
+        'warm-sand': 'hsl(var(--warm-sand))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -84,6 +92,13 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "fade-in-up": "fadeInUp 0.8s ease-out forwards",
+        "shimmer": "shimmer 3s ease-in-out infinite",
+      },
+      backgroundImage: {
+        'gradient-romantic': 'var(--gradient-romantic)',
+        'gradient-hero': 'var(--gradient-hero)',
       },
     },
   },
